@@ -1,5 +1,6 @@
-const a=100
-var b="Rice"
-const c=10
-console.log(b)
-console.log(a+c)
+var fruitName="Mango"
+var count=10
+var price=100
+var total=count*price
+console.log(fruitName)
+console.log(total)
