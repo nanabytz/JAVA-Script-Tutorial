@@ -1,2 +1,5 @@
-console.log(typeof(10))
-console.log(typeof("Apple"))
+var a 
+var b=null
+console.log(a)
+console.log(b)
+console.log(typeof(true))
