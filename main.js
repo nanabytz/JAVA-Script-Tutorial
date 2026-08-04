@@ -1,5 +1,5 @@
-var a 
-var b=null
-console.log(a)
-console.log(b)
-console.log(typeof(true))
+function abc()
+{
+    console.log("Function is working")
+}
+abc()
