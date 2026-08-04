@@ -1,12 +1,6 @@
-var factor="Vijay"
-var fplayer="Messi" 
-var fmovie="Master" 
+function add(a,b){
 
+    console.log(a+b)
 
-    function favorite(){
-    console.log("Favorite Actor:"+factor)
-    console.log("Favorite Player:"+fplayer)
-    console.log("Favorite Movie:"+fmovie)
-    }
-    favorite()
-
+}
+add(10,20)
