@@ -1,6 +1,6 @@
-function myname(){
-    return "Nandhu"
-
+if(false){
+    console.log("This is false")
 }
-var a=myname()
-console.log(a)
+else{
+    console.log("this is true")
+}
