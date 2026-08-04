@@ -1,6 +1,7 @@
-if(false){
-    console.log("This is false")
+var rain=true
+if(rain){
+    console.log("take an umbrella")
 }
 else{
-    console.log("this is true")
+    console.log("enjoy the sunshine")
 }
