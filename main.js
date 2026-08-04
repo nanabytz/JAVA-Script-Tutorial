@@ -1,7 +1,10 @@
-var rain=true
-if(rain){
-    console.log("take an umbrella")
+var color="green"
+if(color=="red"){
+    console.log("Stop")
 }
-else{
-    console.log("enjoy the sunshine")
+if(color=="green"){
+    console.log("GO")
+}
+if(color=="yellow"){
+    console.log("Slow")
 }
