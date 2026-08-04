@@ -1,5 +1,6 @@
-function area(length,breadth){
-    console.log(length*breadth)
+function myname(){
+    return "Nandhu"
 
 }
-area(5,5)
+var a=myname()
+console.log(a)
