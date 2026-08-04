@@ -1,6 +1,12 @@
-var a=10
-var b=20
-function add(){
-    console.log(a+b)
-}
-add()
+var factor="Vijay"
+var fplayer="Messi" 
+var fmovie="Master" 
+
+
+    function favorite(){
+    console.log("Favorite Actor:"+factor)
+    console.log("Favorite Player:"+fplayer)
+    console.log("Favorite Movie:"+fmovie)
+    }
+    favorite()
+
