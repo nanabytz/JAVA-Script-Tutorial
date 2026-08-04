@@ -1,6 +1,5 @@
-function add(a,b){
-
-    console.log(a+b)
+function area(length,breadth){
+    console.log(length*breadth)
 
 }
-add(10,20)
+area(5,5)
