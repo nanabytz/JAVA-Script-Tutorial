@@ -1,43 +1,25 @@
-<h1>Guess the Number</h1>
+<style>
+    div{
 
-<input id="guessnumber">
-<button onclick="check()">Check</button>
-<button onclick="resetGame()">Reset</button>
-
-
-<p id="result">You are Wrong/Right</p>
-
-<p id="score">Score: 10</p>
-
-<script>
-    var guessnumber = document.getElementById("guessnumber");
-    var result = document.getElementById("result");
-    var scoreDisplay = document.getElementById("score");
-
-    var randomNumber = Math.floor(Math.random() * 10) + 1;
-    var score = 10;
-
-    function check() {
-        var enterednumber = Number(guessnumber.value);
-
-        if (randomNumber == enterednumber) {
-            console.log("Right");
-            result.textContent = "Right";
-            alert("You Won");
-        } else {
-            score--;
-            scoreDisplay.textContent = "Score: " + score;
-            result.textContent = "Wrong";
-        }
+        background-color: black;
+        width: 100px;
+        height: 100px;
     }
-    function resetGame() {
-    randomNumber = Math.floor(Math.random() * 10) + 1;
-    score = 10;
+</style>
 
-    scoreDisplay.textContent = "Score: 10";
-    result.textContent = "You are Wrong/Right";
-    guessnumber.value = "";
-}
 
-    
+
+<div id="box">
+
+</div>
+<button onclick="change()">
+    Change color
+</button>
+<script>
+    //select box
+    var box=document.getElementById("box")
+    function change(){
+
+        box.style.backgroundColor="red"
+    }
 </script>
