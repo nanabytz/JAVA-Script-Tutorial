@@ -1,5 +1,5 @@
-for(count=1;count<=5;count=count+1){
+for(count=1;count<=10;count=count+1){
     
-                          console.log("nandhu")
+                          console.log(count)
 
 }
