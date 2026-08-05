@@ -1,17 +1,13 @@
-<button id="btn" onclick="update()">
-    Change color
-</button>
-<div id="result">
+<h1 id="result">Name</h1>
+<button onclick="update(event)">Nandhu</button>
+<button onclick="update(event)">Eat</button>
+<button onclick="update(event)">Mango</button>
 
-</div>
 
 <script>
+    var h1=document.getElementById("result")
+    function update(event){
 
-    var btn = document.getElementById("btn")
-    function update(){
-        btn.style.backgroundColor="red"
-        
+        h1.textContent=event.target.textContent
     }
-    
 </script>
-
