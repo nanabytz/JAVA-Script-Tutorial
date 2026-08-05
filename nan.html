@@ -1,25 +1,15 @@
-<style>
-    div{
-
-        background-color: black;
-        width: 100px;
-        height: 100px;
-    }
-</style>
+<input id="inputBox" onkeyup="update()">
 
 
+   
 
-<div id="box">
+<h1 id="result"></h1>
 
-</div>
-<button onclick="change()">
-    Change color
-</button>
 <script>
-    //select box
-    var box=document.getElementById("box")
-    function change(){
+    var inputbox = document.getElementById("inputBox");
+    var resultt = document.getElementById("result");
 
-        box.style.backgroundColor="red"
+    function update() {
+        resultt.textContent = inputbox.value;
     }
 </script>
