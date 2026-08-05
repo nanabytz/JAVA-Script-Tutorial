@@ -1,5 +1,5 @@
-<button onclick="update()">
-    Add
+<button id="btn" onclick="update()">
+    Change color
 </button>
 <div id="result">
 
@@ -7,10 +7,11 @@
 
 <script>
 
-    var div = document.getElementById("result");
-    function update() {
-        var listitem=document.createElement("h1")
-        listitem.textContent="Hello"
-        div.append(listitem)
+    var btn = document.getElementById("btn")
+    function update(){
+        btn.style.backgroundColor="red"
+        
     }
+    
 </script>
+
