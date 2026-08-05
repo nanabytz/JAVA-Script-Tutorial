@@ -1,10 +1,46 @@
-<p id="title">
-    
-        Hello World
-    
+<input id="num1"  value="">
+<input id="num2" value="">
+<button onclick="add()">
+    Add
+</button>
+<p id="result">
+    Result
+
 </p>
+
+
 <script>
-    var para =document.getElementById("title")
-    console.log(para.textContent)
-    para.textContent="Bye World"
+    var number1=document.getElementById("num1")
+    var number2=document.getElementById("num2")
+    var result=document.getElementById("result")
+
+
+     
+     
+     function add(){
+         var number1value=Number(number1.value)
+     var number2value=Number(number2.value)
+     
+     var total=number1value+number2value
+
+
+        result.textContent=total
+
+       
+     }
+
+
+
+
+      
+
+
+    
+        
+        
+
+    
+
+
+
 </script>
